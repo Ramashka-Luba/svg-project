@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"SanFranciscoProDisplayRegular";
+    font-family: "SanFranciscoProDisplayRegular";
     src: url(./../assets/fonts/SFProDisplay-Regular.ttf);
     font-style: normal;
     font-stretch: normal;
@@ -12,55 +12,68 @@ body {
     /* display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;  
-    font-family:"SanFranciscoProDisplayRegular";
+    align-items: center;
+    font-family: "SanFranciscoProDisplayRegular";
     font-size: 10px;
 }
-.wrap{
 
-}
+.wrap {}
 
 /************ Map ************/
+/* .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .wrapper__map {
     display:flex;
     justify-content: center;
     align-items:center;
 }
 .voblasts {
-    stroke:white;
-    stroke-width:76.36;
-    stroke-miterlimit:22.9256;
-    fill:#a1e7bb;
+    stroke: white;
+    stroke-width: 76.36;
+    stroke-miterlimit: 22.9256;
+    fill: #a1e7bb;
     cursor: pointer;
 }
+
 #hrodnenskaia-voblasts:hover {
-    fill:#5ce48e;
+    fill: #5ce48e;
 }
+
 #vitsebskaia-voblasts:hover {
-    fill:#e45c7a;
+    fill: #e45c7a;
 }
+
 #mahiliouskaia-voblasts:hover {
-    fill:#e45ce4;
+    fill: #e45ce4;
 }
+
 #homelskaia-voblasts:hover {
-    fill:#5c8ce4;
+    fill: #5c8ce4;
 }
+
 #minskaia-voblasts:hover {
-    fill:#5cbde4;
+    fill: #5cbde4;
 }
+
 #brestskaia-voblasts:hover {
-    fill:#e4e25c;
+    fill: #e4e25c;
 }
+
 #horad-minsk:hover {
-    fill:#4ea16c;
+    fill: #4ea16c;
 }
+
 .map__title {
     font-size: 16px;
     color: #000;
 }
 
 /************ Progress__bar ************/
-.progress__bar-text {
+/* .progress__bar-text {
     font-size: 0.6em;
     transform: translateY(0.1em);
     line-height: 1.2;
@@ -72,13 +85,14 @@ body {
     text-transform:uppercase;
     line-height: 1.2;
     letter-spacing: 0.3px;
-}
+} */
 
 
 figure {
     display: flex;
     justify-content: space-around;
 }
+
 @media (max-width: 768px) {
     figure {
         flex-direction: column;
@@ -87,8 +101,8 @@ figure {
 
 .figure-content,
 .figure-key {
-flex: 1;
-align-self: center;
+    flex: 1;
+    align-self: center;
 }
 
 .figure-content svg {
@@ -105,23 +119,27 @@ align-self: center;
 
 .value__item {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.shape__circle{
+
+.shape__circle {
     display: inline-block;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     vertical-align: middle;
 }
+
 .value__html {
-    background-color:#ce4b99;
+    background-color: #ce4b99;
 }
+
 .value__css {
-    background-color:#b1c94e;
+    background-color: #b1c94e;
 }
+
 .value__svg {
-    background-color:#377bbc;
+    background-color: #377bbc;
 }
 
 .sr-only {
@@ -131,7 +149,7 @@ align-self: center;
     margin: -1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
 }
 
@@ -140,18 +158,19 @@ align-self: center;
 .wrapper__circle {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .loader {
     transition: stroke-dasharray 2s linear;
     cursor: pointer;
 }
+
 .loader:hover {
-    stroke-dasharray:60 40;
+    stroke-dasharray: 60 40;
 }
 
-.loader1{
+.loader1 {
     cursor: pointer;
 }
 
@@ -165,14 +184,3 @@ align-self: center;
     transform: translateY(0.8em);
     pointer-events: none;
 }
-
-
-
-
-
-
-
-
-
-
-
